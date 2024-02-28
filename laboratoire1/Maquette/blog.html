@@ -40,22 +40,18 @@
             <a class="navbar-brand" href="connexion.html"><img src="image/connection.png" width="120" height="96"></a>
         </div>
     </nav>
-    <div class="container text-center">
-        <img src="image/planete.png" class="img-fluid mx-auto d-block" width="210" height="172">
-        <h1 class="display-4">CEPI</h1>
+    <div class="container text-center" id="logo">
+        
     </div>
-    <div class="container text-align">
+    <div class="container text-align" >
         <div class="row">
             <div class="raw">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae excepturi vitae omnis facere soluta obcaecati quasi voluptatem aliquam! Distinctio nam obcaecati architecto corporis cupiditate magnam dolores commodi accusantium. Quam, ea.</p>
-            </div>
-            <div class="raw">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae excepturi vitae omnis facere soluta obcaecati quasi voluptatem aliquam! Distinctio nam obcaecati architecto corporis cupiditate magnam dolores commodi accusantium. Quam, ea.Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae excepturi vitae omnis facere soluta obcaecati quasi voluptatem aliquam! Distinctio nam obcaecati architecto corporis cupiditate magnam dolores commodi accusantium. Quam, ea.</p>
+                <p id="texting"></p>
             </div>
         </div>
     </div>
     <img src="image/ordi.png" class="img-fluid mx-auto d-block" width="180" height="172">
-    <div class="container text-align">
+    <div class="container text-align" id="texting2">
         <div class="row">
             <div class="raw">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae excepturi vitae omnis facere soluta obcaecati quasi voluptatem aliquam! Distinctio nam obcaecati architecto corporis cupiditate magnam dolores commodi accusantium. Quam, ea.</p>
@@ -66,36 +62,19 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="comment">
         <div class="form-group">
             <label for="exampleFormControlTextarea1"><h3>Commentaires :</h3></label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             <div class="text-right">
-                <button type="submit" class="btn btn-dark">Submit</button>
+                <button type="submit" class="btn btn-dark" id="envoyerCommentaire">Submit</button>
             </div>
         </div>
     </div>
     <div class="card">
         <br>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="image/connection.png" width="120" height="96">
-                <h5 class="card-title">Nathan Savard :</h5>
-            </div>  
-            <div class="col-md-12">
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ratione et quisquam quos, modi minus nihil id impedit sapiente consequatur temporibus neque optio corporis vel laboriosam cum accusamus dicta obcaecati! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ad a fugit, sunt vero sed autem doloribus sint neque dolore ex animi. Ducimus, impedit. Ut ipsam tempora ea facere quam.</p>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1"><h3>Réponse :</h3></label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        <div class="text-right">
-                            <button type="submit" class="btn btn-dark">Submit</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
+        <div class="row" id="comments"></div>
+        <!--<div class="row">
             <div class=" decale col-md-4">
                     <img src="image/connection.png" width="60" height="48">
                     <h5 class="card-title">Owen Le Nadant :</h5>        
@@ -112,7 +91,7 @@
                     </div>
                 </div>                    
             </div>
-        </div>
+        </div>-->
     </div>
         </br>
         </br>
@@ -136,6 +115,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="publication.js"></script>
     </div>
 </body>
 </html>
